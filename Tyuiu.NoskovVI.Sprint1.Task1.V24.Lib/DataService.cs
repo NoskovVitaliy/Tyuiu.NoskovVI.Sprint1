@@ -5,7 +5,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task1.V24.Lib
     {
         public double Calculate(double x, double y)
         {
-            return x / (1 - y);
+            return (1 - x) / (2 + y);
         }
     }
 }
