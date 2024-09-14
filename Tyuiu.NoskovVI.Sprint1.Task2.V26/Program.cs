@@ -34,7 +34,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task2.V26
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.CalculateMinutesSinceStart(Hours, Minutes));
+            Console.WriteLine("Количество минут, прошедших с начала суток равно " + ds.CalculateMinutesSinceStart(Hours, Minutes));
             Console.ReadLine();
         }
     }
