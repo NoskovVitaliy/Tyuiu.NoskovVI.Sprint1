@@ -12,7 +12,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task0.V18
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #18                                                              *");
+            Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Носков Виталий Игоревич | ПКТб-24-1                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -22,7 +22,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task0.V18
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 9*(6/2*3)/9/3                                                              *");
+            Console.WriteLine("* 9*(6/2*3)/9/3                                                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
