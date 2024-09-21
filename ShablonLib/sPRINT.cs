@@ -1,12 +1,9 @@
-﻿using ShablonLib;
-using Tyuiu.NoskovVI.Sprint1.Task1.V24.Lib;
-namespace Tyuiu.NoskovVI.Sprint1.Task1.V24
+﻿namespace ShablonLib
 {
-    internal class Program
+    public class Class1
     {
-        static void Main(string[] args)
+        static void go()
         {
-            DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Носков В. И. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -22,22 +19,10 @@ namespace Tyuiu.NoskovVI.Sprint1.Task1.V24
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
-            double x, y;
-
-            Console.WriteLine("Введите значение X:");
-            x = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите значение Y:");
-            y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine(ds.Calculate(x, y));
-
-            Console.ReadLine();
         }
-    }
+        public static void pechat()
+        {
+            go();
+        }
+    }     
 }
