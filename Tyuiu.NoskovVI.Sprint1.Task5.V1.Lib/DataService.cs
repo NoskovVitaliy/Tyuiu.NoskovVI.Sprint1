@@ -5,7 +5,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task5.V1.Lib
     {
         public int DistanceBetweenDots(double x1, double y1, double x2, double y2)
         {
-            return Convert.ToInt32((x2 - x1) + (y2 - y1));
+            return Convert.ToInt32(Math.Abs(x2 - x1) + Math.Abs(y2 - y1));
         }
     }
 }
