@@ -29,11 +29,11 @@ namespace Tyuiu.NoskovVI.Sprint1.Task6.V2
 
             if (ds.CheckHello(maybeAGreeting))
             {
-                Console.WriteLine("Ваш текст содержит приветствие");
+                Console.WriteLine("Ваш текст содержит Hello ");
             }
             else
             {
-                Console.WriteLine("Ваш текст не содержит приветствие");
+                Console.WriteLine("Ваш текст не содержит Hello ");
             }
             Console.ReadKey();
         }
