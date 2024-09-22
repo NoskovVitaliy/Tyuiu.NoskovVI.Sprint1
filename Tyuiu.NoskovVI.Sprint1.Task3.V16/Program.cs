@@ -23,6 +23,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task3.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* b = -x1-x2                                                              *");
 
             Console.WriteLine("Введите первый корень: ");
             x1 = double.Parse(Console.ReadLine());
@@ -32,7 +33,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task3.V16
             x2 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Результат:                                                              *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Коэффициент приведенного квадратного уравнения равен: ");

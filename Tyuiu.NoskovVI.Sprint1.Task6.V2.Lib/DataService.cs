@@ -9,10 +9,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task6.V2.Lib
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
     }
 }
