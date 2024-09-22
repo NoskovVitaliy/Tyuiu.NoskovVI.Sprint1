@@ -10,7 +10,7 @@ namespace Tyuiu.NoskovVI.Sprint1.Task5.V1
             Console.Title = "Спринт #1 | Выполнил: Носков В. И. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Носков Виталий Игоревич | ПКТб-24-1                           *");
